@@ -4,3 +4,8 @@ Developers accidentally added "phpunit/phpunit": "~6.5.5" to composer which has 
 U can try to add --ignore-platform-reqs
 
 composer create-project --prefer-dist --ignore-platform-reqs yiisoft/yii2-app-advanced yii2advanced
+
+
+Old Command
+
+composer create-project --prefer-dist yiisoft/yii2-app-advanced yii2-app

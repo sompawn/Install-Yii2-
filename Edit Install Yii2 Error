@@ -1,0 +1,6 @@
+
+Developers accidentally added "phpunit/phpunit": "~6.5.5" to composer which has a requirement of "php: ^7.0".
+
+U can try to add --ignore-platform-reqs
+
+composer create-project --prefer-dist --ignore-platform-reqs yiisoft/yii2-app-advanced yii2advanced
